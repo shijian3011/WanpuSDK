@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #s.source_files = "Extend/**/*.{h,m}"
   #s.resources = ["Core/**/*.strings","**/*.bundle"]
     #万普 1.6.7
-  s.framework = 'SystemConfiguration','CoreTelephony','QuartzCore','AdSupport','QuartzCore','Security'
-  s.libraries = 'Libz'
-  s.vendored_frameworks = '*.framework'
+  s.framework = 'AdSupport','QuartzCore','Security','CoreTelephony','SystemConfiguration'
+  s.libraries = 'z'
+  s.vendored_frameworks = 'WPLib.framework'
 end
