@@ -1,5 +1,4 @@
-d
-d::Spec.new do |s|
+Pod::Spec.new do |s|
   s.ios.deployment_target = "5.0"
 
   s.name         = 'WanpuSDK'
