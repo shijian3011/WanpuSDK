@@ -22,7 +22,6 @@ d::Spec.new do |s|
     #万普 1.6.7
   s.framework = 'SystemConfiguration','CoreTelephony','QuartzCore','AdSupport','QuartzCore','Security'
   s.libraries = 'Libz'
-  s.source_files = "youmi_ios_sdk/*.{h,m}"
   s.vendored_frameworks = '*.framework'
-  s.vendored_libraries = '*.a'
+  s.resource = "WPLib.bundle"
 end
