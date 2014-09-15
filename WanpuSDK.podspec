@@ -23,5 +23,4 @@ d::Spec.new do |s|
   s.framework = 'SystemConfiguration','CoreTelephony','QuartzCore','AdSupport','QuartzCore','Security'
   s.libraries = 'Libz'
   s.vendored_frameworks = '*.framework'
-  s.resource = "WPLib.bundle"
 end
